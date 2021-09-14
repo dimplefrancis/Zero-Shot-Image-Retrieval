@@ -5,7 +5,7 @@ from __future__ import print_function
 import pandas as pd
 import os
 
-DB_dir = 'database'
+DB_dir = '/content/drive/MyDrive/database'
 DB_csv = 'data.csv'
 
 
