@@ -86,7 +86,7 @@ class Color(object):
     if isinstance(input, np.ndarray):  # examinate input type
       img = input.copy()
     else:
-      img = scipy.misc.imageio.imread(input, mode='RGB')
+      img = scipy.misc.imread(input, mode='RGB')
     height, width, channel = img.shape
     bins = np.linspace(0, 256, n_bin+1, endpoint=True)  # slice bins equally for each channel
   
