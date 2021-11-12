@@ -1,6 +1,11 @@
 # Zero-Shot Image Retrieval
 MSc Dissertation project - University of Stirling
 ---
+## Datasets
+- [Paris](https://www.robots.ox.ac.uk/~vgg/data/parisbuildings/)
+- Oxford
+
+---
 ## Implementations
 
 - farhan0581_CBIR: https://github.com/farhan0581/CBIR
