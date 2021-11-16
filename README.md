@@ -17,6 +17,6 @@ MSc Dissertation project - University of Stirling
 - gurkandemir_Bag-of-Visual-Words: https://github.com/gurkandemir/Bag-of-Visual-Words
   - This code runs well
 
-- pochih_CBIR: https://github.com/pochih/CBIR.git
+- CBIR_Master: https://github.com/pochih/CBIR.git
 
-- cetinsamet_IR: https://github.com/cetinsamet/image-retrieval.git
+- ImageRetrieval_Master: https://github.com/cetinsamet/image-retrieval.git
