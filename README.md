@@ -16,7 +16,10 @@ MSc Dissertation project - University of Stirling
 
 - gurkandemir_Bag-of-Visual-Words: https://github.com/gurkandemir/Bag-of-Visual-Words
   - This code runs well
+  - Colab Notebook: Image-Retrieval-CBIR-Master.ipynb
 
 - CBIR_Master: https://github.com/pochih/CBIR.git
+  - Color.py - Executed. Takes minimum 5 hours.
+  - Colab Notebook:Image-Retrieval-CBIR-Master.ipynb
 
 - ImageRetrieval_Master: https://github.com/cetinsamet/image-retrieval.git
