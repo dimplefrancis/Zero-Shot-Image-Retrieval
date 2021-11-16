@@ -5,7 +5,7 @@ MSc Dissertation project - University of Stirling
 
 ## Datasets
 - [Paris](https://www.robots.ox.ac.uk/~vgg/data/parisbuildings/)
-- Oxford
+- [Oxford](https://www.robots.ox.ac.uk/~vgg/data/oxbuildings/)
 
 ---
 
