@@ -27,6 +27,10 @@ class Database(object):
           if not name.endswith('.jpg'):
             continue
           img = os.path.join(root, name)
+		      try:
+			      img.verify() # verify that it is, in fact an image
+          except (IOError, SyntaxError) as e:
+      		  print('Bad file:', filename) # print out the names of corrupt files
           f.write("\n{},{}".format(img, cls))
 
   def __len__(self):

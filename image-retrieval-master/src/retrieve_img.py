@@ -1,6 +1,7 @@
 import sys
 import numpy as np
-from sklearn.externals import joblib
+#from sklearn.externals import joblib
+import joblib
 from sklearn.metrics import euclidean_distances
 import cv2
 
@@ -8,7 +9,8 @@ from pipeline import dense_sift
 
 
 def main(argv):
-    DATAPATH = "../data/"
+    #DATAPATH = "../data/"
+    DATAPATH = "/content/image-retrieval/data/"
 
     if len(argv)!=1:
         print("Usage: python3 retrieve_img.py imagepath")
