@@ -26,3 +26,4 @@ MSc Dissertation project - University of Stirling
   - pip install scikit-learn==0.22
   - pip install opencv-python==3.4.2.17
   - pip install opencv-contrib-python==3.4.2.17
+  - [Colab](https://colab.research.google.com/drive/11QlGhov4Tcli1B6XdzwnGbX4D7nO90r1?usp=sharing)
