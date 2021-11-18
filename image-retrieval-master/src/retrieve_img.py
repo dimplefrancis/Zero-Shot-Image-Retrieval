@@ -6,18 +6,19 @@ from sklearn.metrics import euclidean_distances
 import cv2
 
 from pipeline import dense_sift
+from google.colab.patches import cv2_imshow
 
 
 def main(argv):
     #DATAPATH = "../data/"
-    DATAPATH = "/content/image-retrieval/data/"
+    DATAPATH = "/content/Zero-Shot-Image-Retrieval/image-retrieval-master/data/"
 
     if len(argv) != 1:
         print("Usage: python3 retrieve_img.py imagepath")
         exit()
 
-    image_histograms = np.load("utils/image_histograms.npy")
-    kmeans = joblib.load("utils/kmeans.sav")
+    image_histograms = np.load("/content/Zero-Shot-Image-Retrieval/image-retrieval-master/src/utils/image_histograms.npy",allow_pickle=True)
+    kmeans = joblib.load("/content/Zero-Shot-Image-Retrieval/image-retrieval-master/src/utils/kmeans.sav")
 
     inp_imagename = argv[0]
     inp_des = dense_sift(inp_imagename)
@@ -43,8 +44,9 @@ def main(argv):
     )
 
     sim_img = cv2.imread(DATAPATH + similar_imagename)
-    cv2.imshow("out", sim_img)
-    cv2.waitKey(0)
+    # cv2.imshow("out", sim_img)
+    # cv2.waitKey(0)
+    cv2_imshow(sim_img)
 
     return
 

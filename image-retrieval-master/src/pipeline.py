@@ -4,7 +4,8 @@ import os
 import subprocess
 
 from sklearn.cluster import MiniBatchKMeans
-from sklearn.externals import joblib
+# from sklearn.externals import joblib
+import joblib
 from sklearn.metrics import euclidean_distances
 
 

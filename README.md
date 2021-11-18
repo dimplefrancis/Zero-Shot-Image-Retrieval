@@ -23,3 +23,6 @@ MSc Dissertation project - University of Stirling
   - Colab Notebook:Image-Retrieval-CBIR-Master.ipynb
 
 - ImageRetrieval_Master: https://github.com/cetinsamet/image-retrieval.git
+  - pip install scikit-learn==0.22
+  - pip install opencv-python==3.4.2.17
+  - pip install opencv-contrib-python==3.4.2.17
